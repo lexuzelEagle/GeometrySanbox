@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GeometrySanbox",
+			"Path": "D:\\aUEProjects\\aaa_UdemyCourse\\GeometrySanbox\\Source\\GeometrySanbox.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GeometrySanboxEditor",
+			"Path": "D:\\aUEProjects\\aaa_UdemyCourse\\GeometrySanbox\\Source\\GeometrySanboxEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

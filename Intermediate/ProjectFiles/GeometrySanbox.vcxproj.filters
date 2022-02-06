@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GeometrySanbox.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7845071F-C38F-445D-B23D-F3B9BAC6BDB4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GeometrySanbox.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GeometrySanboxEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{0EA3504A-E81E-45C8-BFDB-9EE16574EC71}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GeometrySanbox">
+      <UniqueIdentifier>{FA35C044-1D4E-4DEC-88D3-D21A77A7E3E9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GeometrySanbox\GeometrySanbox.Build.cs">
+      <Filter>Source\GeometrySanbox</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GeometrySanbox\GeometrySanbox.cpp">
+      <Filter>Source\GeometrySanbox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeometrySanbox\GeometrySanbox.h">
+      <Filter>Source\GeometrySanbox</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeometrySanbox\GeometrySanboxGameModeBase.cpp">
+      <Filter>Source\GeometrySanbox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeometrySanbox\GeometrySanboxGameModeBase.h">
+      <Filter>Source\GeometrySanbox</Filter>
+    </ClInclude>
+    <Filter Include="Source\GeometrySanbox\Private">
+      <UniqueIdentifier>{0DA110DB-6FEB-4812-825A-EAD1B2652B02}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GeometrySanbox\Private\BaseGeometryActor.cpp">
+      <Filter>Source\GeometrySanbox\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\GeometrySanbox\Public">
+      <UniqueIdentifier>{B5167077-9311-4597-9BEC-199ABC1309FB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GeometrySanbox\Public\BaseGeometryActor.h">
+      <Filter>Source\GeometrySanbox\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
