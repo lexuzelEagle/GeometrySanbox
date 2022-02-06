@@ -33,11 +33,7 @@ void ABaseGeometryActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	FVector CurrentLocation = GetActorLocation();
-	float time = GetWorld()->GetTimeSeconds();
-	CurrentLocation.Z += Amplitude * FMath::Sin(Frequency * time);
-
-	SetActorLocation(CurrentLocation);
+	handleMovement();
 }
 
 void ABaseGeometryActor::printLogs()
@@ -79,5 +75,24 @@ void ABaseGeometryActor::printTransform()
 	UE_LOG(LogBaseGeometry, Warning, TEXT("Scale = %s"), *Scale.ToString());
 
 	UE_LOG(LogBaseGeometry, Warning, TEXT("Human Transform = %s"), *Transform.ToHumanReadableString());
+}
+
+void ABaseGeometryActor::handleMovement()
+{
+	switch (GeometryData.MoveType)
+	{
+		case EMovementType::Sin:
+		{
+			FVector CurrentLocation = GetActorLocation();
+			float Time = GetWorld()->GetTimeSeconds();
+			CurrentLocation.Z += GeometryData.Amplitude * FMath::Sin(GeometryData.Frequency * Time);
+
+			SetActorLocation(CurrentLocation);
+			break;
+		}
+	
+		case EMovementType::Static: break;
+		default: break;
+	}
 }
 
