@@ -28,6 +28,9 @@ struct FGeometryData
 
 	UPROPERTY(EditAnywhere, Category = "Movement")
 		EMovementType MoveType = EMovementType::Static;
+
+	UPROPERTY(EditAnywhere, Category = "Design")
+		FLinearColor Color = FLinearColor::Red;
 };
 
 
@@ -71,11 +74,12 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
-	FVector InitialLocation;
+//	FVector InitialLocation;
 
 	void printLogs();
 	void printStringTypes();
 	void printTransform();
 
 	void handleMovement();
+	void SetColor(const FLinearColor& Color);
 };

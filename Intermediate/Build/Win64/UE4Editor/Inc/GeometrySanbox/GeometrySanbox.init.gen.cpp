@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeGeometrySanbox_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x0B8B7D0B,
+				0x37C2EC91,
 				0xBF9C9951,
 				METADATA_PARAMS(nullptr, 0)
 			};

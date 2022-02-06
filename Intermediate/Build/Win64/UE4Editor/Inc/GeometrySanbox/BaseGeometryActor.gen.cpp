@@ -16,6 +16,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseGeometryActor() {}
 	GEOMETRYSANBOX_API UEnum* Z_Construct_UEnum_GeometrySanbox_EMovementType();
 	UPackage* Z_Construct_UPackage__Script_GeometrySanbox();
 	GEOMETRYSANBOX_API UScriptStruct* Z_Construct_UScriptStruct_FGeometryData();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FLinearColor();
 	GEOMETRYSANBOX_API UClass* Z_Construct_UClass_ABaseGeometryActor_NoRegister();
 	GEOMETRYSANBOX_API UClass* Z_Construct_UClass_ABaseGeometryActor();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
@@ -116,6 +117,10 @@ static struct FScriptStruct_GeometrySanbox_StaticRegisterNativesFGeometryData
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MoveType_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_MoveType;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Color_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Color;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
 	};
@@ -151,11 +156,19 @@ static struct FScriptStruct_GeometrySanbox_StaticRegisterNativesFGeometryData
 	};
 #endif
 	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FGeometryData_Statics::NewProp_MoveType = { "MoveType", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FGeometryData, MoveType), Z_Construct_UEnum_GeometrySanbox_EMovementType, METADATA_PARAMS(Z_Construct_UScriptStruct_FGeometryData_Statics::NewProp_MoveType_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGeometryData_Statics::NewProp_MoveType_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FGeometryData_Statics::NewProp_Color_MetaData[] = {
+		{ "Category", "Design" },
+		{ "ModuleRelativePath", "Public/BaseGeometryActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FGeometryData_Statics::NewProp_Color = { "Color", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FGeometryData, Color), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(Z_Construct_UScriptStruct_FGeometryData_Statics::NewProp_Color_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FGeometryData_Statics::NewProp_Color_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FGeometryData_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGeometryData_Statics::NewProp_Amplitude,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGeometryData_Statics::NewProp_Frequency,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGeometryData_Statics::NewProp_MoveType_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGeometryData_Statics::NewProp_MoveType,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FGeometryData_Statics::NewProp_Color,
 	};
 	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FGeometryData_Statics::ReturnStructParams = {
 		(UObject* (*)())Z_Construct_UPackage__Script_GeometrySanbox,
@@ -185,7 +198,7 @@ static struct FScriptStruct_GeometrySanbox_StaticRegisterNativesFGeometryData
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FGeometryData_Hash() { return 2895208617U; }
+	uint32 Get_Z_Construct_UScriptStruct_FGeometryData_Hash() { return 149999692U; }
 	void ABaseGeometryActor::StaticRegisterNativesABaseGeometryActor()
 	{
 	}
