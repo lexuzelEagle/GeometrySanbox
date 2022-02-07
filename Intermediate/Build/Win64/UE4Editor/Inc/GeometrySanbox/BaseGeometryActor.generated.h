@@ -8,22 +8,38 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FLinearColor;
 #ifdef GEOMETRYSANBOX_BaseGeometryActor_generated_h
 #error "BaseGeometryActor.generated.h already included, missing '#pragma once' in BaseGeometryActor.h"
 #endif
 #define GEOMETRYSANBOX_BaseGeometryActor_generated_h
 
-#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_21_GENERATED_BODY \
+#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_25_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FGeometryData_Statics; \
 	GEOMETRYSANBOX_API static class UScriptStruct* StaticStruct();
 
 
 template<> GEOMETRYSANBOX_API UScriptStruct* StaticStruct<struct FGeometryData>();
 
-#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_SPARSE_DATA
-#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_RPC_WRAPPERS
-#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_RPC_WRAPPERS_NO_PURE_DECLS
-#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_INCLASS_NO_PURE_DECLS \
+#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_11_DELEGATE \
+struct _Script_GeometrySanbox_eventOnColorChanged_Parms \
+{ \
+	FLinearColor Color; \
+	FString Name; \
+}; \
+static inline void FOnColorChanged_DelegateWrapper(const FMulticastScriptDelegate& OnColorChanged, FLinearColor const& Color, const FString& Name) \
+{ \
+	_Script_GeometrySanbox_eventOnColorChanged_Parms Parms; \
+	Parms.Color=Color; \
+	Parms.Name=Name; \
+	OnColorChanged.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_SPARSE_DATA
+#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_RPC_WRAPPERS
+#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_RPC_WRAPPERS_NO_PURE_DECLS
+#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABaseGeometryActor(); \
 	friend struct Z_Construct_UClass_ABaseGeometryActor_Statics; \
@@ -32,7 +48,7 @@ public: \
 	DECLARE_SERIALIZER(ABaseGeometryActor)
 
 
-#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_INCLASS \
+#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_INCLASS \
 private: \
 	static void StaticRegisterNativesABaseGeometryActor(); \
 	friend struct Z_Construct_UClass_ABaseGeometryActor_Statics; \
@@ -41,7 +57,7 @@ public: \
 	DECLARE_SERIALIZER(ABaseGeometryActor)
 
 
-#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_STANDARD_CONSTRUCTORS \
+#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABaseGeometryActor(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABaseGeometryActor) \
@@ -54,7 +70,7 @@ private: \
 public:
 
 
-#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_ENHANCED_CONSTRUCTORS \
+#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABaseGeometryActor(ABaseGeometryActor&&); \
@@ -65,7 +81,7 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABaseGeometryActor)
 
 
-#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_PRIVATE_PROPERTY_OFFSET \
+#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__GeometryData() { return STRUCT_OFFSET(ABaseGeometryActor, GeometryData); } \
 	FORCEINLINE static uint32 __PPO__WeaponsNum() { return STRUCT_OFFSET(ABaseGeometryActor, WeaponsNum); } \
 	FORCEINLINE static uint32 __PPO__KillsNum() { return STRUCT_OFFSET(ABaseGeometryActor, KillsNum); } \
@@ -74,27 +90,27 @@ public: \
 	FORCEINLINE static uint32 __PPO__HasWeapon() { return STRUCT_OFFSET(ABaseGeometryActor, HasWeapon); }
 
 
-#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_40_PROLOG
-#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_GENERATED_BODY_LEGACY \
+#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_44_PROLOG
+#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_PRIVATE_PROPERTY_OFFSET \
-	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_SPARSE_DATA \
-	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_RPC_WRAPPERS \
-	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_INCLASS \
-	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_STANDARD_CONSTRUCTORS \
+	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_PRIVATE_PROPERTY_OFFSET \
+	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_SPARSE_DATA \
+	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_RPC_WRAPPERS \
+	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_INCLASS \
+	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_GENERATED_BODY \
+#define GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_PRIVATE_PROPERTY_OFFSET \
-	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_SPARSE_DATA \
-	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_RPC_WRAPPERS_NO_PURE_DECLS \
-	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_INCLASS_NO_PURE_DECLS \
-	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_43_ENHANCED_CONSTRUCTORS \
+	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_PRIVATE_PROPERTY_OFFSET \
+	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_SPARSE_DATA \
+	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_RPC_WRAPPERS_NO_PURE_DECLS \
+	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_INCLASS_NO_PURE_DECLS \
+	GeometrySanbox_Source_GeometrySanbox_Public_BaseGeometryActor_h_47_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

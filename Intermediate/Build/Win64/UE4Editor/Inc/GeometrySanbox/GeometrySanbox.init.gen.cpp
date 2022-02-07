@@ -11,18 +11,22 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeGeometrySanbox_init() {}
+	GEOMETRYSANBOX_API UFunction* Z_Construct_UDelegateFunction_GeometrySanbox_OnColorChanged__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_GeometrySanbox()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_GeometrySanbox_OnColorChanged__DelegateSignature,
+			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/GeometrySanbox",
-				nullptr,
-				0,
+				SingletonFuncArray,
+				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xFDC49E31,
-				0x676677E9,
+				0xEC5A8FE4,
+				0xC766FD99,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
