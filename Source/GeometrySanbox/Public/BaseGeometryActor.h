@@ -75,8 +75,10 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	void SetGeometryData(const FGeometryData& Data) { GeometryData = Data; }
 
 private:
+	FVector InitialLocation;
 	FTimerHandle TimerHandle;
 	const int32 MaxTimerCount = 5;
 	int32 TimerCount = 0;

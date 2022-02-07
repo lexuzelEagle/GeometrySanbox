@@ -7,8 +7,10 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "D:\aUEProjects\aaa_UdemyCourse\GeometrySanbox\Intermediate\Build\Win64\GeometrySanboxEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\aUEProjects\aaa_UdemyCourse\GeometrySanbox\Intermediate\Build\Win64\UE4Editor\Development\GeometrySanbox\BaseGeometryActor.cpp.obj"
 "D:\aUEProjects\aaa_UdemyCourse\GeometrySanbox\Intermediate\Build\Win64\UE4Editor\Development\GeometrySanbox\GeometrySanbox.cpp.obj"
 "D:\aUEProjects\aaa_UdemyCourse\GeometrySanbox\Intermediate\Build\Win64\UE4Editor\Development\GeometrySanbox\GeometrySanboxGameModeBase.cpp.obj"
+"D:\aUEProjects\aaa_UdemyCourse\GeometrySanbox\Intermediate\Build\Win64\UE4Editor\Development\GeometrySanbox\BaseGeometryActor.gen.cpp.obj"
 "D:\aUEProjects\aaa_UdemyCourse\GeometrySanbox\Intermediate\Build\Win64\UE4Editor\Development\GeometrySanbox\GeometrySanbox.init.gen.cpp.obj"
 "D:\aUEProjects\aaa_UdemyCourse\GeometrySanbox\Intermediate\Build\Win64\UE4Editor\Development\GeometrySanbox\GeometrySanboxGameModeBase.gen.cpp.obj"
 "D:\aUEProjects\aaa_UdemyCourse\GeometrySanbox\Intermediate\Build\Win64\UE4Editor\Development\GeometrySanbox\Default.rc2.res"
