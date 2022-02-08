@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GeometrySanbox.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{18FE9DEA-9D11-4774-8654-CA7E99ADC6DA}</UniqueIdentifier>
+      <UniqueIdentifier>{FCFC0C2B-B057-4028-A285-13E2724DECA2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GeometrySanbox.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{70CBC332-2C3C-43A6-A6E6-49ECE46ABC80}</UniqueIdentifier>
+      <UniqueIdentifier>{717735EF-FB79-4DEC-9012-D9CBB01133F7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -26,7 +26,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GeometrySanbox">
-      <UniqueIdentifier>{BBC4D00A-1539-4137-92F9-A9838C903E15}</UniqueIdentifier>
+      <UniqueIdentifier>{0511400D-822C-44FC-81AE-1F47CBE0E8D5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GeometrySanbox\GeometrySanbox.Build.cs">
       <Filter>Source\GeometrySanbox</Filter>
@@ -44,7 +44,7 @@
       <Filter>Source\GeometrySanbox</Filter>
     </ClInclude>
     <Filter Include="Source\GeometrySanbox\Private">
-      <UniqueIdentifier>{05329063-17A7-4242-B8D1-3AD738B983E5}</UniqueIdentifier>
+      <UniqueIdentifier>{FCCB3F16-EF02-4372-884E-32D8C07C5483}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GeometrySanbox\Private\BaseGeometryActor.cpp">
       <Filter>Source\GeometrySanbox\Private</Filter>
@@ -52,13 +52,19 @@
     <ClCompile Include="..\..\Source\GeometrySanbox\Private\GeometryHubActor.cpp">
       <Filter>Source\GeometrySanbox\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GeometrySanbox\Private\SandboxPawn.cpp">
+      <Filter>Source\GeometrySanbox\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\GeometrySanbox\Public">
-      <UniqueIdentifier>{ECC3D520-15F2-4421-A6AC-4374DEB34052}</UniqueIdentifier>
+      <UniqueIdentifier>{359DD335-8875-4C73-8C57-72AACDA176D3}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GeometrySanbox\Public\BaseGeometryActor.h">
       <Filter>Source\GeometrySanbox\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GeometrySanbox\Public\GeometryHubActor.h">
+      <Filter>Source\GeometrySanbox\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GeometrySanbox\Public\SandboxPawn.h">
       <Filter>Source\GeometrySanbox\Public</Filter>
     </ClInclude>
   </ItemGroup>
