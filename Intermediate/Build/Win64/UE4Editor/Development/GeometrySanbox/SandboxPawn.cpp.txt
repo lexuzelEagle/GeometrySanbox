@@ -1,3 +1,5 @@
 D:\aUEProjects\aaa_UdemyCourse\GeometrySanbox\Intermediate\Build\Win64\UE4Editor\Development\GeometrySanbox\Definitions.GeometrySanbox.h
 D:\aUEProjects\aaa_UdemyCourse\GeometrySanbox\Source\GeometrySanbox\Public\SandboxPawn.h
 D:\aUEProjects\aaa_UdemyCourse\GeometrySanbox\Intermediate\Build\Win64\UE4Editor\Inc\GeometrySanbox\SandboxPawn.generated.h
+D:\GAMES\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+D:\GAMES\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h

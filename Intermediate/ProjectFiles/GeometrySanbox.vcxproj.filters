@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GeometrySanbox.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FCFC0C2B-B057-4028-A285-13E2724DECA2}</UniqueIdentifier>
+      <UniqueIdentifier>{4BF7FC60-A90F-4C33-85C3-BA6B60242271}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GeometrySanbox.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{717735EF-FB79-4DEC-9012-D9CBB01133F7}</UniqueIdentifier>
+      <UniqueIdentifier>{C689D46A-097C-416E-86AD-9A9B658B4A3D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -25,8 +25,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\GeometrySanbox">
-      <UniqueIdentifier>{0511400D-822C-44FC-81AE-1F47CBE0E8D5}</UniqueIdentifier>
+      <UniqueIdentifier>{A3410E9B-2EB7-4008-BB12-3AA5CDEA85F9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GeometrySanbox\GeometrySanbox.Build.cs">
       <Filter>Source\GeometrySanbox</Filter>
@@ -44,7 +47,7 @@
       <Filter>Source\GeometrySanbox</Filter>
     </ClInclude>
     <Filter Include="Source\GeometrySanbox\Private">
-      <UniqueIdentifier>{FCCB3F16-EF02-4372-884E-32D8C07C5483}</UniqueIdentifier>
+      <UniqueIdentifier>{B3AE87E2-15A9-456C-9121-7BF093C8B032}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GeometrySanbox\Private\BaseGeometryActor.cpp">
       <Filter>Source\GeometrySanbox\Private</Filter>
@@ -55,8 +58,11 @@
     <ClCompile Include="..\..\Source\GeometrySanbox\Private\SandboxPawn.cpp">
       <Filter>Source\GeometrySanbox\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GeometrySanbox\Private\SandboxPlayerController.cpp">
+      <Filter>Source\GeometrySanbox\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\GeometrySanbox\Public">
-      <UniqueIdentifier>{359DD335-8875-4C73-8C57-72AACDA176D3}</UniqueIdentifier>
+      <UniqueIdentifier>{811F6E67-7A31-4E88-9A1F-196C1D6A708E}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GeometrySanbox\Public\BaseGeometryActor.h">
       <Filter>Source\GeometrySanbox\Public</Filter>
@@ -65,6 +71,9 @@
       <Filter>Source\GeometrySanbox\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GeometrySanbox\Public\SandboxPawn.h">
+      <Filter>Source\GeometrySanbox\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GeometrySanbox\Public\SandboxPlayerController.h">
       <Filter>Source\GeometrySanbox\Public</Filter>
     </ClInclude>
   </ItemGroup>
