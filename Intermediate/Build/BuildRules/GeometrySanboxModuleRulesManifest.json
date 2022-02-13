@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"D:\\aUEProjects\\aaa_UdemyCourse\\GeometrySanbox\\Source\\GeometrySanbox\\GeometrySanbox.Build.cs",
-		"D:\\aUEProjects\\aaa_UdemyCourse\\GeometrySanbox\\Source\\GeometrySanbox.Target.cs",
-		"D:\\aUEProjects\\aaa_UdemyCourse\\GeometrySanbox\\Source\\GeometrySanboxEditor.Target.cs"
-	],
-	"EngineVersion": "4.27.2"
-}

@@ -1,2 +1,0 @@
-D:\aUEProjects\aaa_UdemyCourse\GeometrySanbox\Intermediate\Build\Win64\UE4Editor\Development\GeometrySanbox\Definitions.GeometrySanbox.h
-D:\aUEProjects\aaa_UdemyCourse\GeometrySanbox\Source\GeometrySanbox\GeometrySanbox.h
